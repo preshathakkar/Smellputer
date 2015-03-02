@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Smell.jnlp">
+  <information>
+    <title>Smell</title>
+    <vendor>Jay</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Smell.jar" size="531688" download="eager" />
+    <jar href="lib/RXTXcomm.jar" size="59467" download="eager" />
+    <jar href="lib/image.jar" size="10739" download="eager" />
+    <jar href="lib/javafx-dialogs-0.0.3.jar" size="118212" download="eager" />
+    <jar href="lib/sanselan-0.97-incubator.jar" size="505947" download="eager" />
+    <jar href="lib/smell.jar" size="15497" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Smell" >
+    <param name="requiredFXVersion" value="2.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.smell.Smell"  name="Smell" />
+  <update check="background"/>
+</jnlp>

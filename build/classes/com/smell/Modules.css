@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ==== MODULES TOOLBAR ============================================== */
+
+#ModulesToolbar {
+    -fx-font-size: 12px;
+    -fx-background-color: #1b1b1b;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 6, 0.0 , 0 , 0 );
+}
+#ModulesToolbar .toggle-button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+}
+
+#ModulesToolbar .toggle-button:selected {
+    -fx-background-color: rgba(31,179,255,0.28);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #92bcd1;
+}

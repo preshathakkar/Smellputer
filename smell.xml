@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE smelllist SYSTEM "smell.dtd">
+<smelllist>
+
+
+
+
+
+
+<smell>
+        <smcId>203</smcId>
+        <smcName>Rose</smcName>
+        <smcDesc>Flower</smcDesc>
+        <smcChemFormula>NA</smcChemFormula>
+        <smcPin>2</smcPin>
+    </smell>
+
+
+
+
+
+
+
+
+
+
+<smell>
+        <smcId>201</smcId>
+        <smcName>Smoky</smcName>
+        <smcDesc>smoky</smcDesc>
+        <smcChemFormula>NA</smcChemFormula>
+        <smcPin>4</smcPin>
+    </smell>
+
+
+
+<smell>
+        <smcId>200</smcId>
+        <smcName>Sandalwood</smcName>
+        <smcDesc>woody</smcDesc>
+        <smcChemFormula>NA</smcChemFormula>
+        <smcPin>1</smcPin>
+    </smell>
+</smelllist>

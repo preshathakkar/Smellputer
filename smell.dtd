@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT smell (smcId,smcName,smcDesc)>
+<!ELEMENT smcId (#PCDATA)>
+<!ELEMENT smcName (#PCDATA)>
+<!ELEMENT smcDesc (#PCDATA)>
+<!ELEMENT smcChemFormula (#PCDATA)>
